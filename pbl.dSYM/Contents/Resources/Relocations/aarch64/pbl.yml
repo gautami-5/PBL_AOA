@@ -1,0 +1,11 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/gautamikamble/c code/pbl3/pbl'
+relocations:
+  - { offset: 0x26, size: 0x8, addend: 0x0, symName: _fractionalKnapsack, symObjAddr: 0x0, symBinAddr: 0x100002750, symSize: 0x324 }
+  - { offset: 0x6C, size: 0x8, addend: 0x0, symName: _fractionalKnapsack, symObjAddr: 0x0, symBinAddr: 0x100002750, symSize: 0x324 }
+  - { offset: 0x146, size: 0x8, addend: 0x0, symName: _zeroOneKnapsack, symObjAddr: 0x324, symBinAddr: 0x100002A74, symSize: 0x4F8 }
+  - { offset: 0x1D7, size: 0x8, addend: 0x0, symName: _branchAndBoundKnapsack, symObjAddr: 0x81C, symBinAddr: 0x100002F6C, symSize: 0x40 }
+  - { offset: 0x217, size: 0x8, addend: 0x0, symName: _compareAll, symObjAddr: 0x85C, symBinAddr: 0x100002FAC, symSize: 0x900 }
+  - { offset: 0x46C, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x115C, symBinAddr: 0x1000038AC, symSize: 0x374 }
+...
